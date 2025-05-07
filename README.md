@@ -52,7 +52,7 @@ O sistema foi construído utilizando uma arquitetura de serviços distribuídos,
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/SistemaLancamentosFinanceiros.git
+   git clone https://github.com/pedrohorita/SistemaLancamentosFinanceiros.git
    cd SistemaLancamentosFinanceiros
    ```
 
