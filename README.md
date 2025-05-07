@@ -13,7 +13,7 @@ O sistema foi construído utilizando uma arquitetura de serviços distribuídos,
 - **Banco de Dados SQL Server**: Armazenamento persistente de dados
 - **RabbitMQ**: Serviço de mensageria para comunicação assíncrona entre os serviços
 
-![Sistema de Lançamentos Financeiros](.\solucao.drawio.png)
+![Sistema de Lançamentos Financeiros](./solucao.drawio.png)
 
 ### Tecnologias Utilizadas
 
