@@ -1,0 +1,6 @@
+@ControleDeLancamentos_HostAddress = http://localhost:5052
+
+GET {{ControleDeLancamentos_HostAddress}}/lancamentos/
+Accept: application/json
+
+###

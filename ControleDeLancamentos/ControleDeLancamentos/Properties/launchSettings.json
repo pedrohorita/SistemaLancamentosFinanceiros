@@ -1,0 +1,22 @@
+{
+  "profiles": {
+    "Project": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "CONNECTION_STRING": "Server=localhost,14333;Database=ControleDeLancamentos;User Id=sa;Password=X7@pL9qW#zT2;TrustServerCertificate=True;MultipleActiveResultSets=true",
+        "RABBIT_HOST_NAME": "localhost",
+        "RABBIT_USERNAME": "guest",
+        "RABBIT_PASSWORD": "guest",
+        "RABBIT_PORT": "5672",
+        "RABBIT_LANCAMENTO_QUEUE": "lancamentos"
+
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7105;http://localhost:5052"
+    }    
+
+  }
+}

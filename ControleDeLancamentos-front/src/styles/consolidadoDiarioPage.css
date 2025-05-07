@@ -1,0 +1,104 @@
+.daily-consolidated-report-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.filters {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center; 
+}
+
+.filters label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.filters input {
+    padding: 5px;
+    font-size: 14px;
+    height: 38px; 
+    box-sizing: border-box; 
+}
+
+.filters button {
+    margin-top: 17px;
+    padding: 5px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    height: 38px; 
+    box-sizing: border-box; 
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.empty-message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.loading-spinner {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+}
+
+.consolidated-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.consolidated-table th,
+.consolidated-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.consolidated-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.consolidated-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.consolidated-category-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.consolidated-category-table th,
+.consolidated-category-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.consolidated-category-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.positive-balance {
+    background-color: #d4edda; /* Verde claro */
+}
+
+.negative-balance {
+    background-color: #f8d7da; /* Vermelho claro */
+}

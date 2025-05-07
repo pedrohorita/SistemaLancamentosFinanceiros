@@ -1,0 +1,12 @@
+FROM mcr.microsoft.com/dotnet/sdk:8.0
+
+WORKDIR /src
+COPY . .
+
+RUN dotnet tool install --global dotnet-ef
+ENV PATH="${PATH}:/root/.dotnet/tools"
+
+COPY scripts/migrations/run-all-migrations.sh /src/
+RUN chmod +x /src/run-all-migrations.sh
+
+ENTRYPOINT ["/src/run-all-migrations.sh"]
